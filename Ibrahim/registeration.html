@@ -1,0 +1,68 @@
+<html dir="rtl">
+
+<head>
+    <link rel="stylesheet" href="css-ibraim/all.css">
+    <link rel="stylesheet" href="../css1/rtl/bootstrap.min.css">
+    <link rel="stylesheet" href="css-ibraim/registration.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="myForm py-5 text-center">
+            <img src="images/male-user.svg" class="img-fluid py-3">
+            <h2>التسجيل</h2>
+
+            <form id="demoForm" method="POST" onsubmit="return checkForm(this)">
+                <div class=" form-group row ">
+                    <label class="col-sm-3 col-form-label ">الاسم بالكامل</label>
+                    <div class="col-sm-6">
+                        <input type="text " class="form-control " name="username " placeholder="الاسم الاول " data-parsley-length="[4, 20] " required />
+                    </div>
+
+                </div>
+
+                <div class="form-group row ">
+                    <label class="col-sm-3 col-form-label ">العنوان</label>
+                    <div class="col-sm-3 ">
+                        <input type="text " class="form-control " name="city " placeholder="المدينة " required />
+                    </div>
+                    <div class="col-sm-3 ">
+                        <input type="text " class="form-control " name="state " placeholder="الولاية " required />
+                    </div>
+
+                </div>
+                <div class="form-group row ">
+                    <label class="col-sm-3 col-form-label ">الايميل</label>
+
+                    <div class="col-sm-3 ">
+                        <input type="email " class="form-control " name="Email " placeholder="Example@example.com " required />
+                    </div>
+                </div>
+
+                <div class="form-group row ">
+                    <label class="col-sm-3 col-form-label ">كلمة السر</label>
+
+                    <div class="col-sm-3 ">
+                        <input type="password" class="form-control " name="password " data-parsley-length="[8, 40] " required />
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <div class="col-sm-3 mr-auto">
+                        <!-- Do NOT use name="submit " or id="submit " for the Submit button -->
+                        <button type="submit " class="btn myBtn" id="mySubmit">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/parsley.min.js "></script>
+    <script src="js/reg-form.js "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.myForm {
+    box-shadow: 0px 0px 3px rgb(233, 231, 231);
+    overflow: hidden;
+    position: relative;
+}
+
+.myForm>img {
+    width: 140px;
+}
+
+.form-control {
+    border-right: 2px solid #003459 !important;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+}
+
+.myBtn {
+    background-color: #003459;
+    color: white !important;
+    padding: 10px 25px
+}
+.myBtn:hover{
+    opacity: .8;
+    transition: all 600ms;
+}
+
+.myForm::before {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    background: linear-gradient(45deg, #00171F, #00A8E8);
+    opacity: 1;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    clip-path: circle(48.3% at 8% 51%);
+}
+
+.myForm::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    background: linear-gradient(45deg, #00171F, #00A8E8);
+    opacity: 1;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+    clip-path: circle(48.3% at 90% 100%);
+}

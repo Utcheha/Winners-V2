@@ -1,0 +1,129 @@
+
+
+/*home page css previous winner section*/
+*{
+   
+    font-family: 'Cairo', sans-serif;
+    transition: all 700ms;
+   
+}
+.heamSection .clear{
+    clear: both;
+}
+.heamSection .righttitle{
+ 
+    width: 30%;
+    float: right;
+    text-align: right;
+    color: #007EA7;
+    
+}
+.heamSection .navmenu{
+
+    width: 50%;
+    margin: auto
+}
+
+.heamSection .image-item{
+    overflow: hidden;
+    height: 300px;
+}
+.heamSection .web-img-top{
+    cursor: pointer;
+   
+  
+}
+.heamSection .web-title{
+    color: #003459;
+}
+.heamSection .web-img-top:hover{
+    transform: scale(1.1,1.1);
+}
+.heamSection iframe:hover{
+    transform: scale(1.1,1.1);
+}
+.heamSection #mobile ,.heamSection #video{
+    display: none;
+}
+.heamSection .nav-item a{
+    color: #00171F;
+    
+}
+.heamSection .nav-item a:hover{
+    background-color: #00A8E8;
+    color: #FFFFFF;
+    transition:0.1s;
+    border-radius: 5px;
+}
+
+.heamSection #loadwebsite,#loadvideo,#loadmobile{
+    display: none;
+}
+
+
+/* nominees section*/
+.heamSection .image-item{
+    position: relative;
+}
+.heamSection .overlaynom{
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+width: 100%;
+height: 300px;
+top: 0;
+left: 0;
+bottom:0;
+right: 0;
+opacity: 0;
+
+}
+.heamSection .web{
+    overflow: hidden;
+}
+.heamSection .web:hover .overlaynom{
+opacity: 1;
+
+}
+
+.heamSection .web:hover .web-img-top{
+    transform: scale(1.1,1.1);
+}
+
+
+.heamSection .bt-default.white-fill {
+    border-color: #fcfcfc;
+    color: #202121;
+    background-color: #fcfcfc;
+    font-weight: 500;
+}
+
+.heamSection .bt-default {
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    padding: 0 23px;
+    border: 1px solid;
+    border-radius: 50px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #A6ABAB;
+    border-color: #DBE0DF;
+    margin-left: 5px;
+}
+.heamSection #nominees{
+    display: none
+}
+
+
+
+
+
+
+
+
+
+
