@@ -181,7 +181,7 @@ var scrollbtn =$("#stop");
 		//		$(".loading").fadeOut(2000);
 			//});
 			$(window).on('load', function() {
-				$(".loading").fadeOut(20000 , function(){
+				$(".loading").fadeOut(500 , function(){
         
 					$("body").css("overflow","auto");
 				});

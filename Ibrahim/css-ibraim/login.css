@@ -32,3 +32,138 @@ body {
     z-index: -1;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
+
+
+.footersection{
+  background:  #000;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+   color: white;
+  
+ }
+ .footersection .links a{
+   color: white;
+ }
+ .footersection .links a:hover{
+  color: gray;
+}
+ .footersection .social_ico li a:hover svg:not(:root).svg-inline--fa{
+  color: #00171F;
+}
+.footersection .social_ico li a:hover  {
+  background-color: #fff;
+  color: #00171F;
+  border: 1px solid gray
+}
+
+.footersection .firstfooter{
+  background-color: #111;
+}
+.copyrights h5 , .copyrights h4{
+  font-size: 12px;
+}
+.copyrights .win {
+  color: #00A8E8;
+  font-size: 16px
+}
+.secondheam{
+  background-image: url(../IMG/164.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 120px;
+  box-shadow: 0 10000px rgba(0,0,0,0.75) inset;
+  color: #fff;
+}
+h5 span{
+  color: #fff;
+}
+
+
+.social {
+ 
+  margin: 10px 0px;
+  padding-top: 25px;
+  border-top: 1px solid #fafafa;
+}
+.social_ico li {
+  display: inline-block;
+}
+.social_ico li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+ font-size: 22px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid #999999;
+  color: #777777;
+
+}
+.social_ico li a svg:not(:root).svg-inline--fa {
+  margin-top: 7px;
+  font-size: 1.4em;
+  color: #777777;
+ 
+}
+.social_ico li a:hover svg:not(:root).svg-inline--fa{
+  color: #ffffff;
+}
+.social_ico li a:hover  {
+  background-color: #00171F;
+  color: #ffffff;
+  border: 1px solid #00171F
+}  
+
+
+  .navsection img{
+    width: 75px;
+    
+   
+}
+.navsection ul{
+  text-align: right;
+float: right;
+direction: rtl;
+}
+
+.navsection .smallSize  ul li a{
+  text-align: center;
+}
+.navsectionn {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 20px 0;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #000!important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+	font-weight: 600;
+
+    text-transform: uppercase;
+}
+.nav-item{
+	float: right !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+
+	color: #007EA7 !important;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #007EA7 !important;
+}
+.smallSize  .navbar-nav .nav-link{
+	color:cadetblue !important;
+}
+.background-darke{
+	background: rgba(0,0,0,.8);
+	transition: background 2s;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
