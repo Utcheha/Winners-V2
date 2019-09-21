@@ -1,70 +1,9 @@
 
-/* NAVBAR websites /mobile/video*/ 
 
 
-$("#websites").click(function(){
-    $("#website").show(1)
-    $("#video").hide(1)
-    $("#mobile").hide(1)
-
-    /*when click on load more*/ 
-    $("#load").click(function(){
-        $("#loadwebsite").show(50,function(){
-        $("#load").text("عرض أقل")
-        })
-        $("#load").click(function(){
-            $("#loadwebsite").hide(50,function(){
-                $("#load").text("عرض المزيد")
-            })    
-        })
-    }) 
-
-})
- 
-$("#videos").click(function(){
-    $("#video").show(1)
-    $("#website").hide(1)
-    $("#mobile").hide(1)
-   
-    /*when click on load more*/ 
-    $("#load").click(function(){
-        $("#loadvideo").show(50,function(){
-        $("#load").text("عرض أقل")
-        })
-        $("#load").click(function(){
-            $("#loadvideo").hide(50,function(){
-                $("#load").text("عرض المزيد")
-            })    
-        })
-    }) 
-
-})
-
-$("#mobiles").click(function(){
-    $("#mobile").show(1)
-    $("#website").hide(1)
-    $("#video").hide(1)
-   /*when click on load more*/ 
-   $("#load").click(function(){
-    $("#loadmobile").show(1,function(){
-    $("#load").text("عرض أقل")
-    })
-    $("#load").click(function(){
-        $("#loadmobile").hide(1,function(){
-            $("#load").text("عرض المزيد")
-        })    
-    })
-}) 
-
-})
-
-
-/*nominees section */
-
-
- /*when click on load more*/ 
+ /*when click on load more nominees*/ 
  $("#loadnomniees").click(function(){
-    $("#nominees").show(50,function(){
+    $("#nominees").show(10,function(){
     $("#loadnomniees").text("عرض أقل")
     })
     $("#loadnomniees").click(function(){

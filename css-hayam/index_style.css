@@ -1,71 +1,272 @@
 
 
 /*home page css previous winner section*/
-*{
+
+.winnersection ,.nominees{
+    font-family: 'Cairo', sans-serif; 
+    box-sizing: border-box;
+
    
-    font-family: 'Cairo', sans-serif;
-    transition: all 700ms;
-   
-}
-.heamSection .clear{
-    clear: both;
-}
-.heamSection .righttitle{
  
-    width: 30%;
+}
+.winnersection .fa-clock ,p{
+    color:#003459;
+   
+}
+
+.winnersection .righttitle{
+
     float: right;
-    text-align: right;
     color: #007EA7;
+}
+
+
+.winnersection .filtering .filter{
+    display: inline-block;
+    padding: 29px 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px
+}
+.winnersection .filtering span{
+    margin: 0 5px;
+    padding:8px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.winnersection .filtering .active{
+    background: #00171F;
+    background: linear-gradient(linear,left top, right top, from(#003459),to (#00A8E8));
+    background: linear-gradient(to right, #003459,#00A8E8);
+    color: white;
+}
+.winnersection  .items ,.items-hidden{
+    position: relative;
+    height: 450px;
+    
+  
+    
+ 
+}.winnersection .item1{
+    height: 400px;
+    position: absolute;
+    margin-right: 10px;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+    background-color: #fff;
+    border-radius: 12px;
+   
+}
+.winnersection.item-img{
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    height: 300px !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
     
 }
-.heamSection .navmenu{
 
-    width: 50%;
-    margin: auto
-}
-
-.heamSection .image-item{
+.winnersection .img-overflow{
     overflow: hidden;
-    height: 300px;
-}
-.heamSection .web-img-top{
-    cursor: pointer;
-   
+    height: 300px !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    
   
 }
-.heamSection .web-title{
-    color: #003459;
+
+.winnersection .item-img-overlay,.winnerhidden .item-img-overlay{
+    position: absolute;
+    top:2.5px;
+    left:2.5px;
+    right:2.5px;
+    bottom:2.5px;
+    padding: 2.5px;
+    background: rgba(0, 23, 31, .5);
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0.5s;
+    color: white;
+    transition: all 0.5s;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
 }
-.heamSection .web-img-top:hover{
+.winnersection .items:hover .item-img-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.winnersection .items:hover .item-img{
     transform: scale(1.1,1.1);
+
 }
-.heamSection iframe:hover{
-    transform: scale(1.1,1.1);
-}
-.heamSection #mobile ,.heamSection #video{
-    display: none;
-}
-.heamSection .nav-item a{
-    color: #00171F;
-    
-}
-.heamSection .nav-item a:hover{
-    background-color: #00A8E8;
-    color: #FFFFFF;
-    transition:0.1s;
-    border-radius: 5px;
+.winnersection .bt-default{
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+} .item1:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+      transform: scale(1, 1);
+  }
+
+
+
+.winnersection  .items-hidden{
+    width: 100%;
+
 }
 
-.heamSection #loadwebsite,#loadvideo,#loadmobile{
-    display: none;
+/* =============================nominees section========================*/
+
+
+.nominees  .items ,.items-hidden{
+    position: relative;
+    height: 500px;
+    
+  
+    
+ 
+}.nominees .item1{
+    height: 400px;
+    position: absolute;
+    margin-right: 10px;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 13px 10px -7px rgba(181, 202, 241, 0.2);
+    background-color: #fff;
+    border-radius: 12px;
+   
 }
+.nominees.item-img{
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    height: 300px !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    
+}
+
+.nominees .img-overflow{
+    overflow: hidden;
+    height: 300px !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    
+  
+}
+
+.nominees .item-img-overlay{
+    position: absolute;
+    top:2.5px;
+    left:2.5px;
+    right:2.5px;
+    bottom:2.5px;
+    padding: 2.5px;
+    background: rgba(0, 23, 31, .5);
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0.5s;
+    color: white;
+    transition: all 0.5s;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+}
+.nominees .items:hover .item-img-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.nominees .items:hover .item-img{
+    transform: scale(1.1,1.1);
+
+}
+.nominees .bt-default{
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+} .nominees .item1:hover {
+    box-shadow: 0px 30px 18px -8px rgba(88, 98, 117, 0.3);
+      transform: scale(1, 1);
+  }
+
+
+
+.nominees  .items-hidden{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* nominees section*/
-.heamSection .image-item{
+.secondheam .image-item{
     position: relative;
 }
-.heamSection .overlaynom{
+.secondheam .overlaynom{
 background-color: rgba(0, 0, 0, 0.5);
 position: absolute;
 width: 100%;
@@ -77,27 +278,27 @@ right: 0;
 opacity: 0;
 
 }
-.heamSection .web{
+.secondheam .web{
     overflow: hidden;
 }
-.heamSection .web:hover .overlaynom{
+.secondheam .web:hover .overlaynom{
 opacity: 1;
 
 }
 
-.heamSection .web:hover .web-img-top{
+.secondheam .web:hover .web-img-top{
     transform: scale(1.1,1.1);
 }
 
 
-.heamSection .bt-default.white-fill {
+.secondheam.bt-default.white-fill {
     border-color: #fcfcfc;
     color: #202121;
     background-color: #fcfcfc;
     font-weight: 500;
 }
 
-.heamSection .bt-default {
+.secondheam .bt-default {
     position: relative;
     display: inline-block;
     height: 34px;
@@ -114,16 +315,46 @@ opacity: 1;
     border-color: #DBE0DF;
     margin-left: 5px;
 }
-.heamSection #nominees{
+.secondheam #nominees{
     display: none
 }
 
-
-
-
-
-
-
-
-
-
+.secondheam .image-item{
+    overflow: hidden;
+    height: 300px;
+}
+.secondheam .web-img-top{
+    cursor: pointer;
+   
+  
+}
+.secondheam .web-title{
+    color: #003459;
+}
+.secondheam .web-img-top:hover{
+    transform: scale(1.1,1.1);
+}
+.secondheam iframe:hover{
+    transform: scale(1.1,1.1);
+} .righttitle{
+ 
+    width: 30%;
+    float: right;
+    text-align: right;
+    color: #007EA7;
+    
+}/* load more button*/
+.secondheam #load{
+    display: none;
+    width: 100%;
+    height: 450px;
+}
+.secondheam.footertext{
+   font-weight: 500;
+    color: #003459;
+}
+.secondheam .nominees{
+    background-image: url("../IMG/164.jpg");
+    background-size: cover;
+    background-position: fixed;
+}
