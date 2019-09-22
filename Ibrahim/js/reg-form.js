@@ -1,4 +1,5 @@
-$(document).ready(function() {
+
+/*$(document).ready(function() {
     $("demoForm")
         .parsley()
         .on("form:validate", function(formInstance) {
@@ -17,7 +18,7 @@ $(mySubmit).click(function() {
     var re = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
     $();
 });
-
+*/
 // function checkForm(form) {
 //     if (form.username.value == "") {
 //         alert("Error: Username cannot be blank!");
@@ -77,3 +78,7 @@ $(mySubmit).click(function() {
 //     alert("You entered a valid password: " + form.password.value);
 //     return true;
 // }
+
+
+
+

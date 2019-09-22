@@ -44,7 +44,7 @@
 .winnersection  .items ,.items-hidden{
     position: relative;
     height: 450px;
-    
+    transition: all 0.5s;
   
     
  
@@ -59,14 +59,15 @@
     box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
     background-color: #fff;
     border-radius: 12px;
+    transition: 0.2s all ease-out;
    
 }
-.winnersection.item-img{
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+.winnersection .item-img{
+    transition: all .4s !important;
     height: 300px !important;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    top: 0;
+  
     
 }
 
@@ -76,18 +77,18 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     top: 0;
-    
+    transition: all 0.5s;
   
 }
 
-.winnersection .item-img-overlay,.winnerhidden .item-img-overlay{
+.winnersection .item-img-overlay{
     position: absolute;
     top:2.5px;
     left:2.5px;
     right:2.5px;
     bottom:2.5px;
     padding: 2.5px;
-    background: rgba(0, 23, 31, .5);
+    background: rgba(0, 23, 31, .3);
     opacity: 0;
     visibility: hidden;
     transition-delay: 0.5s;
@@ -99,19 +100,19 @@
 }
 .winnersection .items:hover .item-img-overlay{
     visibility: visible;
-    opacity: 1;
+    opacity: 0.8;
 }
 .winnersection .items:hover .item-img{
-    transform: scale(1.1,1.1);
+    transform: scale(1.2,1.2);
 
 }
 .winnersection .bt-default{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
-    color: red;
-} .item1:hover {
+ 
+} .winnersection .item1:hover {
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-      transform: scale(1, 1);
+      transform: scale(1.03, 1.03);
   }
 
 
@@ -126,7 +127,8 @@
 
 .nominees  .items ,.items-hidden{
     position: relative;
-    height: 500px;
+    height: 400px;
+    transition: all 0.5s;
     
   
     
@@ -142,14 +144,14 @@
     box-shadow: 0px 13px 10px -7px rgba(181, 202, 241, 0.2);
     background-color: #fff;
     border-radius: 12px;
-   
+    transition: all 0.5s;
 }
 .nominees.item-img{
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    transition: all .4s !important;
     height: 300px !important;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    top: 0;
+   
     
 }
 
@@ -159,6 +161,7 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     top: 0;
+    transition: all 0.5s;
     
   
 }
@@ -170,11 +173,10 @@
     right:2.5px;
     bottom:2.5px;
     padding: 2.5px;
-    background: rgba(0, 23, 31, .5);
+    background: rgba(0, 23, 31, .3);
     opacity: 0;
     visibility: hidden;
     transition-delay: 0.5s;
-    color: white;
     transition: all 0.5s;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -182,19 +184,20 @@
 }
 .nominees .items:hover .item-img-overlay{
     visibility: visible;
-    opacity: 1;
+    opacity: 0.8;
 }
 .nominees .items:hover .item-img{
-    transform: scale(1.1,1.1);
+    transform: scale(1.2,1.2);
 
 }
 .nominees .bt-default{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
-    color: red;
+    color:#00A8E8 !important;
+    
 } .nominees .item1:hover {
     box-shadow: 0px 30px 18px -8px rgba(88, 98, 117, 0.3);
-      transform: scale(1, 1);
+    transform: scale(1.03, 1.03);
   }
 
 
@@ -202,6 +205,12 @@
 .nominees  .items-hidden{
     width: 100%;
 
+}.nominees .site{
+    cursor: pointer;
+}
+.nominees .fa-clock {
+    color:#003459;
+   
 }
 
 
