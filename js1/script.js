@@ -124,7 +124,7 @@ function myFunction() {
    //borderbbottm.item(0).classList.add("nav-border-bottom-class");
 	navtow.classList.remove("fadeInUp");
 
-   
+	navbar.classList.remove("nav-border-bottom-class");
    //for(i=0;i<navtext.length;i++){
    //	navtext.item(i).classList.add("nav-item-color");	
    //	}
@@ -181,9 +181,11 @@ var scrollbtn =$("#stop");
 		//		$(".loading").fadeOut(2000);
 			//});
 			$(window).on('load', function() {
-				$(".loading").fadeOut(500 , function(){
+				$(".loading").fadeOut(4000 , function(){
         
 					$("body").css("overflow","auto");
+					
+					$(".loading").css( "zIndex", 0 );
 				});
 			})
 
@@ -203,3 +205,29 @@ var scrollbtn =$("#stop");
 				  $(this).addClass('active');
 				});
 					})
+
+					$(document).ready( function() {   
+
+						$('.lastWork').isotope({
+						  itemSelector: '.item',
+						
+						});
+						
+						// filter items on button click
+						
+						$('.button-item').on( 'click , load',function() {
+						  var filterValue = $(this).attr('data-filter');
+						  $('.lastWork').isotope({ filter: filterValue });
+						  $('.button-item').removeClass('active');
+						  $(this).addClass('active');
+						});
+							})
+
+$(".navbar a , sliderTop a").click(function(){
+
+let aHref =$(this).attr("href");
+
+    let profileOffset = $(aHref).offset().top;
+    $("body,html").animate({scrollTop:profileOffset} , 1000)
+})
+					
