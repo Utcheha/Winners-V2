@@ -1,0 +1,428 @@
+.myForm {
+  box-shadow: 0px 0px 3px rgb(233, 231, 231);
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.navsection img{
+  width: 150px;
+ 
+}
+.navsection ul{
+text-align: right;
+float: right;
+direction: rtl;
+}
+.navsection a img{
+
+float: left;
+direction: ltr;
+}
+.navsection .smallSize  ul li a{
+text-align: center;
+}
+.navsectionn {
+border-bottom: 1px solid rgba(255,255,255,0.2);
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 20px 0;
+transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-light .navbar-nav .nav-link{
+color: #000!important;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+font-weight: 600;
+
+  text-transform: uppercase;
+}
+.nav-item{
+float: right !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+
+color: #007EA7 !important;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+color: #007EA7 !important;
+}
+.smallSize  .navbar-nav .nav-link{
+color:cadetblue !important;
+}
+.background-darke{
+background: rgba(0,0,0,.8);
+transition: background 2s;
+border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.footersection{
+  background:  #000;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+   color: white;
+  
+ }
+ .footersection .links a{
+   color: white;
+ }
+ .footersection .links a:hover{
+  color: gray;
+}
+ .footersection .social_ico li a:hover svg:not(:root).svg-inline--fa{
+  color: #00171F;
+}
+.footersection .social_ico li a:hover  {
+  background-color: #fff;
+  color: #00171F;
+  border: 1px solid gray
+}
+
+.footersection .firstfooter{
+  background-color: #111;
+}
+.copyrights h5 , .copyrights h4{
+  font-size: 12px;
+}
+.copyrights .win {
+  color: #00A8E8;
+  font-size: 16px
+}
+.secondheam{
+  background-image: url(../IMG/164.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 120px;
+  box-shadow: 0 10000px rgba(0,0,0,0.75) inset;
+  color: #fff;
+}
+h5 span{
+  color: #fff;
+}
+
+.social {
+ 
+margin: 10px 0px;
+padding-top: 25px;
+border-top: 1px solid #fafafa;
+}
+.social_ico li {
+  display: inline-block;
+}
+.social_ico li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+ font-size: 22px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid #999999;
+  color: #777777;
+
+}
+.social_ico li a svg:not(:root).svg-inline--fa {
+  margin-top: 7px;
+  font-size: 1.4em;
+  color: #777777;
+ 
+}
+.social_ico li a:hover svg:not(:root).svg-inline--fa{
+  color: #ffffff;
+}
+.social_ico li a:hover  {
+  background-color: #00171F;
+  color: #ffffff;
+  border: 1px solid #00171F
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================login form===============================*/
+.login{
+margin:0;
+color:#6a6f8c;
+background:#c8c8c8;
+font:600 16px/18px 'Open Sans',sans-serif;
+box-sizing: border-box;
+}
+.login .social-login{
+position:relative;
+float: left;
+width: 100%;
+height:auto;
+padding: 10px 0 15px 0;
+border-bottom: 1px solid #eee;
+}
+.login .social-login a{
+position:relative;
+float: left;
+width:calc(40% - 8px);
+text-decoration: none;
+color: #fff;
+border: 1px solid rgba(0,0,0,0.05);
+padding: 12px;
+border-radius: 2px;
+font-size: 12px;
+text-transform: uppercase;
+margin: 0 3%;
+text-align:center;
+}
+.login .social-login a i{
+position: relative;
+float: left;
+width: 25px;
+top: 2px;
+}
+.login .social-login a:first-child{
+background-color: #49639F;
+width: 40%
+}
+.login .social-login a:last-child{
+background-color: #DF4A32;
+width: 40%
+}
+*,:after,:before{box-sizing:border-box}
+.login .clearfix:after,.clearfix:before{content:'';display:table}
+.login .clearfix:after{clear:both;display:block}
+.login a{color:inherit;text-decoration:none}
+
+.login .login-wrap{
+width:100%;
+margin:auto;
+max-width:525px;
+min-height:670px;
+position:relative;
+background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0,0,0,0.2) 100%);
+box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+border-radius: 20px;
+
+}
+.login .login-html{
+width:100%;
+height:100%;
+position:absolute;
+padding:90px 70px 50px 70px;
+background:rgba(40,57,101,.2);
+border-radius: 20px;
+}
+.login .login-html .sign-in-htm,
+.login .login-html .sign-up-htm{
+top:0;
+left:0;
+right:0;
+bottom:0;
+position:absolute;
+transform:rotateY(180deg);
+backface-visibility:hidden;
+transition:all .4s linear;
+}
+.login .login-html .sign-in,
+.login .login-html .sign-up,
+.login .login-form .group .check{
+display:none;
+}
+.login .login-html .tab,
+.login .login-form .group .label,
+.login .login-form .group .button{
+text-transform:uppercase;
+}
+.login .login-html .tab{
+font-size:22px;
+margin-right:15px;
+padding-bottom:5px;
+margin:0 15px 10px 0;
+display:inline-block;
+border-bottom:2px solid transparent;
+}
+.login .login-html .sign-in:checked + .tab,
+.login .login-html .sign-up:checked + .tab{
+color:#fff;
+border-color:#1161ee;
+}
+.login .login-form{
+min-height:345px;
+position:relative;
+perspective:1000px;
+transform-style:preserve-3d;
+}
+.login .login-form .group{
+margin-bottom:15px;
+}
+.login .login-form .group .label,
+.login .login-form .group .input,
+.login .login-form .group .button{
+width:100%;
+color:#fff;
+display:block;
+}
+.login .login-form .group .input,
+.login .login-form .group .button{
+border:none;
+padding:15px 20px;
+border-radius:25px;
+background:rgba(255,255,255,.1);
+}
+.login .login-form .group input[data-type="password"]
+{
+  text-security:circle;
+-webkit-text-security:circle;
+}
+.login .login-form .group .label{
+color:#aaa;
+font-size:14px;
+}
+.login .login-form .group .button{
+background:#1161ee;
+}
+.login-form .group label .icon{
+width:15px;
+height:15px;
+border-radius:2px;
+position:relative;
+display:inline-block;
+background:rgba(255,255,255,.1);
+}
+
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+content:'';
+width:10px;
+height:2px;
+background:#fff;
+position:absolute;
+transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+left:3px;
+width:5px;
+bottom:6px;
+transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+top:6px;
+right:0;
+transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+transform:rotate(0);
+}
+
+.login .hr{
+height:2px;
+margin:60px 0 20px 0;
+background:rgba(255,255,255,.2);
+}
+.login .foot-lnk{
+text-align:center;
+}
+.login .foot-lnk .account{
+  cursor: pointer;
+}
+
+/*=================================background color===========================*/
+
+body {
+margin: 0;
+width: 100%;
+height: 100vh;
+background: linear-gradient(-45deg, #7cf8a1, #FFFFFF, #96def8, #b3f7e7);
+background-size: 400% 400%;
+animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+
+ /*=============================footer=====================================================*/
+
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 30px 0;
+}
+
+ .footer_copyright {
+  color: #252525;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.footer_copyright a {
+  color: #000;
+  transition: all 0.2s ease 0s;
+}
+.footer_social ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.footer_social ul li {
+  display: inline-block;
+}
+
+.footer_social ul li a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  color: #333;
+  display: block;
+  font-size: 16px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  width: 45px;
+}
+.footer .footer_copyright a:hover{
+color:#2a80b9;
+text-decoration: none;
+}
+.footer .footer_social a:hover{
+background: #2a80b9;
+color: white;
+border: 2px solid #fff;
+}
+

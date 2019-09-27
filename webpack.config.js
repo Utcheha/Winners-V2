@@ -74,6 +74,13 @@ module.exports = {
                   'image-webpack-loader?bypassOnDebug'
                 ]
               }
+             , {
+
+               // test:  path.join(__dirname, 'node_modules/wow.js/dist/wow.min.js'),
+               
+                test: require.resolve(path.join(__dirname, 'node_modules/wow.js/dist/wow.min.js')) ,              
+                use: "expose?WOW"
+              }  
           ]
   
       

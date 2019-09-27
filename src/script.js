@@ -233,7 +233,8 @@ let aHref =$(this).attr("href");
                     
 
 
-new WOW().init();
+
+
 $('.VIEW').magnificPopup({
   
   type: 'image',
@@ -243,3 +244,4 @@ $('.VIEW').magnificPopup({
   }
   // other options
 });
+
